@@ -84,21 +84,21 @@ body {
 }
 
 .task-list li button:nth-child(2) {
-  background-color: #d9534f;
+  background-color: #025aa5;
   color: white;
 }
 
 .task-list li button:nth-child(2):hover {
-  background-color: #c9302c;
+  background-color: #025aa5;
 }
 
 .task-list li button:nth-child(3) {
-  background-color: #0275d8;
+  background-color: #d9534f;
   color: white;
 }
 
 .task-list li button:nth-child(3):hover {
-  background-color: #025aa5;
+  background-color: #d9534f;
 }
 
 .task-list li button:nth-child(4) {

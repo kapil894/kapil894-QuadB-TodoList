@@ -36,7 +36,7 @@ const TaskList = () => {
             {tasks.map((task) => (
                 <li key={task._id} className={task.completed ? 'completed' : ''}>
                     <span>{task.text}</span>
-                    <button onClick={() => handleToggle(task._id)}>Toggle</button>
+                    <button onClick={() => handleToggle(task._id)}>Done</button>
                     <button onClick={() => handleDelete(task._id)}>Delete</button>
                     <button onClick={() => {
                         const newText = prompt("Edit task:", task.text);
