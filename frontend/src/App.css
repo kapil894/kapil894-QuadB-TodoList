@@ -1,0 +1,111 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* App Container */
+.App {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  text-align: center;
+}
+
+/* Task Input Styling */
+.task-input {
+  margin-bottom: 20px;
+}
+
+.task-input input {
+  width: calc(100% - 50px);
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.task-input button {
+  padding: 10px;
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.task-input button:hover {
+  background-color: #4cae4c;
+}
+
+/* Task List Styling */
+.task-list {
+  list-style: none;
+}
+
+.task-list li {
+  background: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.task-list li button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.task-list li button:hover {
+  opacity: 0.8;
+}
+
+.task-list li button:nth-child(2) {
+  background-color: #d9534f;
+  color: white;
+}
+
+.task-list li button:nth-child(2):hover {
+  background-color: #c9302c;
+}
+
+.task-list li button:nth-child(3) {
+  background-color: #0275d8;
+  color: white;
+}
+
+.task-list li button:nth-child(3):hover {
+  background-color: #025aa5;
+}
+
+.task-list li button:nth-child(4) {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.task-list li button:nth-child(4):hover {
+  background-color: #ec971f;
+}
